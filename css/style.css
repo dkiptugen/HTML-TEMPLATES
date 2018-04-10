@@ -9380,6 +9380,15 @@ body {
   margin-right: 2px;
 }
 
+figure img {
+  height: auto;
+  width: 100%;
+}
+figure figcaption {
+  padding: 0.5rem !important;
+  background-color: #f8f9fa !important;
+}
+
   /*
 * Main footer
  * --------------------------------------------------
@@ -9388,6 +9397,12 @@ body {
   background: #000;
   font-size: .85rem;
   line-height: 2;
+}
+
+@media (max-width: 991.98px) {
+  h1 {
+    font-size: 1.75rem;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */

@@ -212,7 +212,16 @@ $rss:#ff851b;
     margin-right:2px;
   }
  }
-
+figure {
+	img{
+		height:auto;
+		width: 100%;
+	}
+	figcaption{
+		padding:0.5rem !important;
+		background-color: #f8f9fa !important;
+	}
+}
  
   /*
 * Main footer
@@ -224,3 +233,9 @@ $rss:#ff851b;
   line-height: 2;
 
  }
+
+ @include media-breakpoint-down(md) { 
+ h1{
+ 	font-size:1.75rem;
+ }
+}
