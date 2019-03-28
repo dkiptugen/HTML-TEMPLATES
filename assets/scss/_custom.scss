@@ -1,0 +1,22 @@
+header{
+	border-bottom: 5px $header-bottom-header solid;
+}
+
+$i: 6;
+@while $i < 26 {
+  .font-#{$i} { font-size: 0pt + $i; }
+  $i: $i + 1;
+}
+.cattitle{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cattitle:after {
+    content: '';
+    border-top: 2px solid;
+    margin: 0 0 0 20px;
+    flex: 1 0 20px;
+}
