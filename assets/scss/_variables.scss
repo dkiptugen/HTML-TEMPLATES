@@ -100,7 +100,8 @@ $theme-colors: map-merge((
   "light":        $light,
   "dark":         $dark,
   "top":          #231f20,
-  "cat":          #FFC807
+  "cat":          #FFC807,
+  "black":        #000000
 ), $theme-colors);
 
 $brand-colors: ();

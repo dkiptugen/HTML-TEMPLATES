@@ -30,4 +30,16 @@
 	height: 38px;
 	font-size: $font-size-sm;
 }
+@each $color,
+$value in $brand-colors {
+    .avatar-#{$color} {
+        @include button-variant($value, $value);
+    }
+}
 
+@each $color,
+$value in $theme-colors {
+    .avatar-#{$color} {
+        @include button-variant($value, $value);
+    }
+}

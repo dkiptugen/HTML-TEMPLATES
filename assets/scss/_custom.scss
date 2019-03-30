@@ -16,7 +16,25 @@ $i: 6;
 }
 .cattitle:after {
     content: '';
-    border-top: 2px solid;
+    border-top: 2px solid #DEDEDE;
     margin: 0 0 0 20px;
     flex: 1 0 20px;
+}
+@each $color,
+$value in $brand-colors {
+    .text-#{$color} {
+        color: $value;
+    }
+}
+.footer-1{
+	background:#FEC506;
+	border-top:solid 1px #848484;
+	border-bottom:solid 1px #848484;
+}
+.footer-2{
+	background:#FFF;
+	height:50px;
+}
+.footer-3{
+	background: #848484;
 }
