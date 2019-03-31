@@ -12193,4 +12193,17 @@ header {
 .footer-3 {
   background: #848484; }
 
+.playbutton {
+  top: 0;
+  left: 0px;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height: 100%; }
+
+.summary {
+  width: 300px; }
+
 /*# sourceMappingURL=style.css.map */
