@@ -3,8 +3,8 @@ header{
 }
 
 $i: 6;
-@while $i < 26 {
-  .font-#{$i} { font-size: 0pt + $i; }
+@while $i <= 32 {
+  .font-#{$i} { font-size: 0rem + $i/16; }
   $i: $i + 1;
 }
 .cattitle{
@@ -33,10 +33,11 @@ $value in $brand-colors {
 }
 .footer-2{
 	background:#FFF;
-	height:50px;
+	
 }
 .footer-3{
 	background: #848484;
+
 }
 .playbutton{
 	top: 0;
@@ -54,4 +55,12 @@ $value in $brand-colors {
 .ad{
 	background:ghostwhite;
 	text-align:center;
+}
+.summary li {
+    font-style: italic;
+    color: #969494;    
+    font-size: 0.9em;
+}
+.content a{
+    color:#BC2700;
 }
