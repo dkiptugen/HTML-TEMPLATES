@@ -1,0 +1,167 @@
+@each $breakpoint in map-keys($grid-breakpoints) {
+    @include media-breakpoint-up($breakpoint) {
+        $infix: breakpoint-infix($breakpoint, $grid-breakpoints);
+        $i: 6;
+
+        @while $i <= 32 {
+            .font#{$infix}-#{$i} {
+                font-size: 0rem + $i / 16;
+            }
+
+            $i: $i + 1;
+        }
+
+        $i: 100;
+
+        @while $i < 1000 {
+            .fw#{$infix}-#{$i} {
+                font-weight: $i;
+            }
+
+            $i: $i + 100;
+        }
+    }
+}
+
+#nav-2 {
+    .nav-item:not(.active) {
+        .nav-link {
+            color: $white;
+        }
+    }
+}
+
+@include media-breakpoint-up("md") {
+    #nav-1 {
+        margin-bottom: -1.875rem;
+        z-index: 1;
+    }
+
+    #nav-2 {
+        z-index: -1;
+    }
+
+    .top-ad {
+        position: absolute;
+        top: 8px;
+        right: 0;
+    }
+
+    .navbar {
+        font-weight: 600;
+        padding-top: 0;
+        padding-bottom: 0;
+
+        .nav-link {
+            font-size: 0.75rem;
+        }
+
+        .active {
+            background: $white;
+            height: calc(parent(attr(height)));
+
+            .nav-link {
+                color: $pdgreen !important;
+            }
+        }
+    }
+}
+
+
+@include media-breakpoint-down("sm") {
+    .navbar-brand {
+        padding: 0;
+
+        img {
+            padding: 2px 0;
+            height: calc(parent(attr(height)));
+        }
+    }
+}
+
+
+.section {
+    background: $pdgreen;
+    width: 100%;
+    display: inline-flex;
+
+    .section-title {
+        font-size: 0.875rem;
+        background: $white;
+        display: inline;
+        margin: 0 15px;
+        height: 100%;
+        font-weight: 700;
+
+        &:before {
+            content: "¬";
+            clip-path: polygon(0 0, 50% 0, 100% 100%, 0% 100%);
+            background: $pdgreen;
+            width: 10px;
+            margin-right: 10px;
+            display: inline-flex;
+            color: $pdgreen;
+        }
+
+        &:after {
+            content: "¬";
+            clip-path: polygon(0 0, 100% 0, 100% 100%, 50% 100%);
+            background: $pdgreen;
+            width: 10px;
+            margin-left: 10px;
+            display: inline-flex;
+            color: $pdgreen;
+        }
+    }
+}
+
+.footer-2 {
+    background: rgba($white, 10%);
+}
+
+#content {
+    white-space: wrap;
+    font-family: 'Montserrat' san-serif;
+    font-weight: 500;
+
+    figure {
+        img {
+            width: 100%;
+            height: auto;
+        }
+
+        figcaption {
+            text-align: center;
+            background: rgba($black, 60%);
+            color: $white;
+        }
+    }
+
+    p {
+        font-size: .875rem;
+    }
+
+    h1 {
+        font-size: 2rem;
+        font-family: "Nunito Sans" San-serif;
+        font-weight: 700;
+    }
+}
+
+.summary {
+    width: 300px;
+}
+
+@mixin link-color($color) {
+    color: $color;
+
+    &:hover {
+        color: lighten($color, 16%);
+    }
+}
+
+@each $color, $value in $brand-colors {
+    .text-#{$color} {
+        @include link-color($value);
+    }
+}
