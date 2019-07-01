@@ -150,7 +150,7 @@
     font-weight: 400;
     font-style: normal;
     src: local("NunitoSans");
-    src: url($nunito_path + "/nunito-sans/NunitoSans-Regular.eot?#iefix") format("embedded-opentype"), url($nunito_path + "/nunito-sans/NunitoSans-Regular.woff") format("woff"), url($nunito_path + "/nunito-sans/NunitoSans-Regular.ttf") format("truetype"), url($nunito_path + "/nunito-sans/NunitoSans-Regular.svg") format("svg");
+    src: url($nunito_path + "NunitoSans-Regular.eot?#iefix") format("embedded-opentype"), url($nunito_path + "NunitoSans-Regular.woff") format("woff"), url($nunito_path + "NunitoSans-Regular.ttf") format("truetype"), url($nunito_path + "NunitoSans-Regular.svg") format("svg");
 }
 
 // Italic
@@ -159,7 +159,7 @@
     font-weight: 400;
     font-style: italic;
     src: local("NunitoSans");
-    src: url($nunito_path + "/nunito-sans/NunitoSans-Italic.eot?#iefix") format("embedded-opentype"), url($nunito_path + "/nunito-sans/NunitoSans-Italic.woff") format("woff"), url($nunito_path + "/nunito-sans/NunitoSans-Italic.ttf") format("truetype"), url($nunito_path + "/nunito-sans/NunitoSans-Italic.svg") format("svg");
+    src: url($nunito_path + "NunitoSans-Italic.eot?#iefix") format("embedded-opentype"), url($nunito_path + "NunitoSans-Italic.woff") format("woff"), url($nunito_path + "NunitoSans-Italic.ttf") format("truetype"), url($nunito_path + "NunitoSans-Italic.svg") format("svg");
 }
 
 // Light
@@ -168,7 +168,7 @@
     font-weight: 100;
     font-style: normal;
     src: local("NunitoSans");
-    src: url($nunito_path + "/nunito-sans/NunitoSans-Light.eot?#iefix") format("embedded-opentype"), url($nunito_path + "/nunito-sans/NunitoSans-Light.woff") format("woff"), url($nunito_path + "/nunito-sans/NunitoSans-Light.ttf") format("truetype"), url($nunito_path + "/nunito-sans/NunitoSans-Light.svg") format("svg");
+    src: url($nunito_path + "NunitoSans-Light.eot?#iefix") format("embedded-opentype"), url($nunito_path + "NunitoSans-Light.woff") format("woff"), url($nunito_path + "NunitoSans-Light.ttf") format("truetype"), url($nunito_path + "NunitoSans-Light.svg") format("svg");
 }
 
 // Light Italic
@@ -177,7 +177,7 @@
     font-weight: 100;
     font-style: italic;
     src: local("NunitoSans");
-    src: url($nunito_path + "/nunito-sans/NunitoSans-LightItalic.eot?#iefix") format("embedded-opentype"), url($nunito_path + "/nunito-sans/NunitoSans-LightItalic.woff") format("woff"), url($nunito_path + "/nunito-sans/NunitoSans-LightItalic.ttf") format("truetype"), url($nunito_path + "/nunito-sans/NunitoSans-LightItalic.svg") format("svg");
+    src: url($nunito_path + "NunitoSans-LightItalic.eot?#iefix") format("embedded-opentype"), url($nunito_path + "NunitoSans-LightItalic.woff") format("woff"), url($nunito_path + "NunitoSans-LightItalic.ttf") format("truetype"), url($nunito_path + "NunitoSans-LightItalic.svg") format("svg");
 }
 
 // Semibold
@@ -186,7 +186,7 @@
     font-weight: 600;
     font-style: normal;
     src: local("NunitoSans");
-    src: url($nunito_path + "/nunito-sans/NunitoSans-SemiBold.eot?#iefix") format("embedded-opentype"), url($nunito_path + "/nunito-sans/NunitoSans-SemiBold.woff") format("woff"), url($nunito_path + "/nunito-sans/NunitoSans-SemiBold.ttf") format("truetype"), url($nunito_path + "/nunito-sans/NunitoSans-SemiBold.svg") format("svg");
+    src: url($nunito_path + "NunitoSans-SemiBold.eot?#iefix") format("embedded-opentype"), url($nunito_path + "NunitoSans-SemiBold.woff") format("woff"), url($nunito_path + "NunitoSans-SemiBold.ttf") format("truetype"), url($nunito_path + "NunitoSans-SemiBold.svg") format("svg");
 }
 
 // Semibold Italic
@@ -195,7 +195,7 @@
     font-weight: 600;
     font-style: italic;
     src: local("NunitoSans");
-    src: url($nunito_path + "/nunito-sans/NunitoSans-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url($nunito_path + "/nunito-sans/NunitoSans-SemiBoldItalic.woff") format("woff"), url($nunito_path + "/nunito-sans/NunitoSans-SemiBoldItalic.ttf") format("truetype"), url($nunito_path + "/nunito-sans/NunitoSans-SemiBoldItalic.svg") format("svg");
+    src: url($nunito_path + "NunitoSans-SemiBoldItalic.eot?#iefix") format("embedded-opentype"), url($nunito_path + "NunitoSans-SemiBoldItalic.woff") format("woff"), url($nunito_path + "NunitoSans-SemiBoldItalic.ttf") format("truetype"), url($nunito_path + "NunitoSans-SemiBoldItalic.svg") format("svg");
 }
 
 // Bold
@@ -204,7 +204,7 @@
     font-weight: 700;
     font-style: normal;
     src: local("NunitoSans");
-    src: url($nunito_path + "/nunito-sans/NunitoSans-Bold.eot?#iefix") format("embedded-opentype"), url($nunito_path + "/nunito-sans/NunitoSans-Bold.woff") format("woff"), url($nunito_path + "/nunito-sans/NunitoSans-Bold.ttf") format("truetype"), url($nunito_path + "/nunito-sans/NunitoSans-Bold.svg") format("svg");
+    src: url($nunito_path + "NunitoSans-Bold.eot?#iefix") format("embedded-opentype"), url($nunito_path + "NunitoSans-Bold.woff") format("woff"), url($nunito_path + "NunitoSans-Bold.ttf") format("truetype"), url($nunito_path + "NunitoSans-Bold.svg") format("svg");
 }
 
 // Bold Italic
@@ -213,7 +213,7 @@
     font-weight: 700;
     font-style: italic;
     src: local("NunitoSans");
-    src: url($nunito_path + "/nunito-sans/NunitoSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url($nunito_path + "/nunito-sans/NunitoSans-BoldItalic.woff") format("woff"), url($nunito_path + "/nunito-sans/NunitoSans-BoldItalic.ttf") format("truetype"), url($nunito_path + "/nunito-sans/NunitoSans-BoldItalic.svg") format("svg");
+    src: url($nunito_path + "NunitoSans-BoldItalic.eot?#iefix") format("embedded-opentype"), url($nunito_path + "NunitoSans-BoldItalic.woff") format("woff"), url($nunito_path + "NunitoSans-BoldItalic.ttf") format("truetype"), url($nunito_path + "NunitoSans-BoldItalic.svg") format("svg");
 }
 
 // Extra Bold
@@ -222,7 +222,7 @@
     font-weight: 900;
     font-style: normal;
     src: local("NunitoSans");
-    src: url($nunito_path + "/nunito-sans/NunitoSans-ExtraBold.eot?#iefix") format("embedded-opentype"), url($nunito_path + "/nunito-sans/NunitoSans-ExtraBold.woff") format("woff"), url($nunito_path + "/nunito-sans/NunitoSans-ExtraBold.ttf") format("truetype"), url($nunito_path + "/nunito-sans/NunitoSans-ExtraBold.svg") format("svg");
+    src: url($nunito_path + "NunitoSans-ExtraBold.eot?#iefix") format("embedded-opentype"), url($nunito_path + "NunitoSans-ExtraBold.woff") format("woff"), url($nunito_path + "NunitoSans-ExtraBold.ttf") format("truetype"), url($nunito_path + "NunitoSans-ExtraBold.svg") format("svg");
 }
 
 // Extra Bold Italic
@@ -231,5 +231,5 @@
     font-weight: 900;
     font-style: italic;
     src: local("NunitoSans");
-    src: url($nunito_path + "/nunito-sans/NunitoSans-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url($nunito_path + "/nunito-sans/NunitoSans-ExtraBoldItalic.woff") format("woff"), url($nunito_path + "/nunito-sans/NunitoSans-ExtraBoldItalic.ttf") format("truetype"), url($nunito_path + "/nunito-sans/NunitoSans-ExtraBoldItalic.svg") format("svg");
+    src: url($nunito_path + "NunitoSans-ExtraBoldItalic.eot?#iefix") format("embedded-opentype"), url($nunito_path + "NunitoSans-ExtraBoldItalic.woff") format("woff"), url($nunito_path + "NunitoSans-ExtraBoldItalic.ttf") format("truetype"), url($nunito_path + "NunitoSans-ExtraBoldItalic.svg") format("svg");
 }
